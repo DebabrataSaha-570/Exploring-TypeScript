@@ -30,3 +30,10 @@ TypeScript code converts to javaScript, which run anywhere javaScript runs: In a
 8. TypeScript supports es6 features.
 
 9. TypeScript compiled to vanilla javaScript, so it can run older browser also.
+
+-- some commands
+=>
+
+1.  tsc --init (crates a tsconfig.json file) [in this file, we can change the js version in (target), we can also change to root directory, outDir]
+2.  tsc --watch (wherever something change is ts file, it converts ts in to js immediately)
+3.  tsc (after creating tsconfig.json file , it behaves according to the json file)
