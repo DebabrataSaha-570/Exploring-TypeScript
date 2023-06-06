@@ -28,11 +28,11 @@ var Friends;
     Friends[Friends["Salam"] = 20] = "Salam";
     Friends[Friends["Balam"] = 30] = "Balam";
 })(Friends || (Friends = {}));
-console.log(Friends.Arif);
+// console.log(Friends.Arif)
 var configs;
 (function (configs) {
     configs["API_key"] = "api_key";
     configs["Domain_Name"] = "domain_name";
 })(configs || (configs = {}));
-console.log(configs.Domain_Name);
+// console.log(configs.Domain_Name)
 //When we don't want to change the value of and object and don't want to update the object (key, value) then we will use enum.

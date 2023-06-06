@@ -43,14 +43,14 @@ enum Friends {
     Balam = 30
 }
 
-console.log(Friends.Arif)
+// console.log(Friends.Arif)
 
 enum configs {
     API_key = "api_key", 
     Domain_Name = "domain_name"
 }
 
-console.log(configs.Domain_Name)
+// console.log(configs.Domain_Name)
 
 
 //When we don't want to change the value of and object and don't want to update the object (key, value) then we will use enum.
