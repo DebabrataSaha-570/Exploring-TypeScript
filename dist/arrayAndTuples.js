@@ -5,13 +5,13 @@ players = ["Messi", "Ronaldo"];
 players.push("Neymar");
 // players.push(123) //gives an error
 var newPlayers = players.map(function (player, index) { return index + 1 + '. ' + player; });
-console.log(players, newPlayers);
+// console.log(players, newPlayers)
 // ......................
 var oldPlayers; //Array that allows string, number and boolean (in a single array)
 oldPlayers = ['sakib', 'mushfiq', 'liton'];
 oldPlayers.push(77, true);
 // oldPlayers[0] = {} //gives an error
-console.log(oldPlayers);
+// console.log(oldPlayers)
 // ........................ 
 var ultraOldPlayers; // Array that allows only string, number and boolean (in a different array) 
 ultraOldPlayers = ["messi", "Ronaldo"];

@@ -11,7 +11,7 @@ players.push("Neymar");
 
 const newPlayers = players.map((player, index) => index + 1 + '. ' + player)
 
-console.log(players, newPlayers)
+// console.log(players, newPlayers)
 
 // ......................
 
@@ -22,7 +22,7 @@ oldPlayers.push(77, true)
 
 // oldPlayers[0] = {} //gives an error
 
-console.log(oldPlayers)
+// console.log(oldPlayers)
 
 // ........................ 
 
