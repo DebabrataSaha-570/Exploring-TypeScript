@@ -52,3 +52,11 @@ var add8 = function () {
 };
 var result6 = add8(77, 75, 23, 344);
 console.log(result6);
+// .........
+// Function signature 
+var add9 = function (num1, num2, num3) {
+    if (num3 === void 0) { num3 = 0; }
+    return num1 + num2 + num3;
+};
+var result7 = add9(10, 30, 10);
+console.log(result7);
